@@ -1,0 +1,92 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#calendar-container {
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+th[colspan="7"] {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+td input[type="text"] {
+    width: 100%;
+    height: 40px;
+    padding: 0;
+    border: none;
+    font-size: 24px;
+}
+
+td select {
+    width: 100%;
+    height: 40px;
+    padding: 0;
+    border: none;
+    font-size: 12px;
+}
+
+#entries-container {
+    margin-top: 20px;
+}
+
+.entry {
+    margin-bottom: 10px;
+}
+
+.entry input[type="text"] {
+    width: 10%;
+    height: 20px;
+    padding: 0;
+    border: none;
+    font-size: 12px;
+}
+
+td:nth-child(7), td:nth-child(1) {
+    background-color: #f7f7f7;
+}
+
+#generate-btn, #clear-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#generate-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+#clear-btn {
+    background-color: #ccc;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+}
+
+#generate-btn:hover {
+    background-color: #3e8e41;
+}
+
+#clear-btn:hover {
+    background-color: #aaa;
+}
