@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacation Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Vacation Planner</h1>
+    <div id="entries-container">
+        <div class="entry" id="entry1">
+            <input type="text" value="Vacation/Off">
+            <input type="number" value="0">
+            <input type="color" value="#ff0000">
+            <input type="checkbox" checked> Use color
+        </div>
+        <div class="entry" id="entry2">
+            <input type="text" value="Personal/Off">
+            <input type="number" value="0">
+            <input type="color" value="#FFF700">
+            <input type="checkbox" checked> Use color		
+        </div>
+        <div class="entry" id="entry3">
+            <input type="text" value="Flex/Remote Work">
+            <input type="number" value="0">
+            <input type="color" value="#00FF2A">
+            <input type="checkbox" checked> Use color		
+        </div>
+        <div class="entry" id="entry4">
+            <input type="text" value="Standard Day/Remote Work">
+            <input type="number" value="0">
+            <input type="color" value="#004CFF">
+            <input type="checkbox" checked> Use color	
+        </div>
+        <div class="entry" id="entry5">
+            <input type="text" value=" ">
+            <input type="number" value="0">
+            <input type="color" value="#ff00ff">
+            <input type="checkbox"> Use color
+        </div>
+    </div>
+
+    <form>
+        <label for="month1">Month 1:</label>
+        <select id="month1">
+            <option value="0">January</option>
+            <option value="1">February</option>
+            <option value="2">March</option>
+            <option value="3">April</option>
+            <option value="4">May</option>
+            <option value="5">June</option>
+            <option value="6">July</option>
+            <option value="7">August</option>
+            <option value="8">September</option>
+            <option value="9">October</option>
+            <option value="10">November</option>
+            <option value="11">December</option>
+        </select>
+        <input type="number" id="year1" value="2024">
+
+        <label for="month2">Month 2:</label>
+        <select id="month2">
+            <option value="0">January</option>
+            <option value="1">February</option>
+            <option value="2">March</option>
+            <option value="3">April</option>
+            <option value="4">May</option>
+            <option value="5">June</option>
+            <option value="6">July</option>
+            <option value="7">August</option>
+            <option value="8">September</option>
+            <option value="9">October</option>
+            <option value="10">November</option>
+            <option value="11">December</option>
+        </select>
+        <input type="number" id="year2" value="2024">
+
+        <label for="month3">Month 3:</label>
+        <select id="month3">
+            <option value="0">January</option>
+            <option value="1">February</option>
+            <option value="2">March</option>
+            <option value="3">April</option>
+            <option value="4">May</option>
+            <option value="5">June</option>
+            <option value="6">July</option>
+            <option value="7">August</option>
+            <option value="8">September</option>
+            <option value="9">October</option>
+            <option value="10">November</option>
+            <option value="11">December</option>
+        </select>
+        <input type="number" id="year3" value="2024">
+
+        <button id="generate-btn">Generate Calendar</button>
+       <!-- <button id="clear-btn">Clear Calendar</button> -->
+    </form>
+
+    <div id="calendar-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
